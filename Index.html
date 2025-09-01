@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI PRIMERA WEB</title>
 </head>
-<body>
-   <h1> BIENVENIDOS  al curso  </h1> 
+<body  style="background-color: beige;" >
+  <!-- Contenedor de menu nav -->
+   <nav  id="inicio"> 
+        <a href="#presentacion"> PRESENTACION   </a> &emsp;
+        <a href="#links">LINK DE LA INSTITUCION </a>  &emsp;
+        <a href="#imagenes">IMAGENES</a>  &emsp;
+        <a href="#listas">LISTAS ACADEMICAS</a> &emsp;
+        <a href="#tablas">TABLAS DE CLUBES</a> &emsp;
+        <a href="Todosobremipersona.html"  target="_blank" >TODO SOBRE MI PERSONA </a> 
+    </nav>
+ 
+    <h1 id="presentacion"> BIENVENIDOS  al curso  </h1> 
     <p> CURSO: LENGUAJE PARA EL DESARROLLO Y SOPORTE DE SISTEMAS
    </p>  <!-- el parrafo coloca un enter automatico    -->
 
@@ -28,11 +38,96 @@
    <h3 style="font-size: 40px;"> Evidencia 4  </h3>
    <h4 style="font-size: 2em; " > FIREBASE </h4>
 
+<hr style="height: 5px; border:double blue; background-color: rgb(210, 238, 84);">
+<!--tipo de borde  solid= compacta ; dotted =punteado ; double= doble -->
+<br>
+<h2 id="links"> USO DE LINKS </h2>
+ <p>LINKS DE LA INSTITUCION</p>
+ <a href="https://www.certus.edu.pe/" target="_blank"  > ENLACE CERTUS   </a>    <br>
+ <a href="https://intranet.certus.edu.pe/Login/"  target="_blank"   > PORTAL CERTUS   </a> <br>
+ <a href="https://www.certus.edu.pe/sede/san-juan-de-lurigancho/"  target="_blank"   > MI SEDE   </a>
+ <br>
 
+ <h2>USO DE IMAGENES</h2>
+ <p>imagenes de articulos de mascotas:</p>
+    <img src="mascota1.webp" alt="IMAGEN NO CARGA" width="200px"  >
+    <img src="platito2.webp" alt="IMAGEN NO CARGA"  width="300px">
+    <img src="platito3.jpg" alt="IMAGEN NO CARGA"  width="300px">
 
+    <p>imagenes de escudo de futbol:</p>
+    <img src="imagenes_Escudos/cienciano.jpg" alt="IMAGEN NO CARGA" width="400px"  >
+    <img src="imagenes_Escudos/cristal.png" alt="IMAGEN NO CARGA" width="400px"  >
+    <img src="C:\Users\docente-sjl\Documents\GitHub\MYREPOSITORIO\imagenes_Escudos/melgar.jpg" alt="IMAGEN NO CARGA" width="400px"  >
+    <!--la ultima no es conveniente cuado cambio de equipo de PC  -->
+    
+    <br>
+    <p>imagenes de escudo de anime TITANES:</p>
+    <img src="https://i.pinimg.com/originals/63/bc/54/63bc54f30c39df54967d5a2a29c0c559.jpg" 
+            alt="IMAGEN NO CARGA" width="800px" style="border: solid red 20px ;" >
+   <br>
+   <a  href="#inicio"  style="font-size: 25px;"  > VOLVER AL INICIO </a>
+   <hr style="height: 5px; border:double blue; background-color: rgb(210, 238, 84);">
+  <h2>USO DE LISTAS</h2>
+     <p>CONOCIMIENTOS PREVIOS PARA HTML en orden metodologico</p>
+        <ol type="A">
+            <li> OFIMATICA BASICA   </li>
+            <li> GESTION DE CARPETAS</li>
+            <li> INSTALACION Y DESINSTALACION DE PROGRAMAS</li>
 
+        </ol>
+     <p>Cualidades y buenas practicas a seguir</p>
+        <ul>
+            <li>Capacidad de atencion</li>
+            <li>Consultar dudas no resueltas</li>
+            <li>Repasar temas y realizar tareas en casa</li>
+        </ul>
 
+  <h2 id="tablas">USO DE TABLAS</h2>
+    <p>INFORMACION DE CLUBES</p>
+    
+    <table border="2px" style="background-color: aqua;   font-size: 25px;"  >
+        <tr>
+            <th>NOMBRE DEL CLUB</th>
+            <th>PAIS</th>
+            <th>PROVINCIA</th>
+            <th>ESCUDO</th>
 
+        </tr>
+        <tr>
+            <td>CIENCIANO </td>
+            <td>PERU</td>
+            <td>CUZCO</td>
+            <td><img src="imagenes_Escudos/cienciano.jpg" alt="IMAGEN NO CARGA" width="200px"  ></td>
+       </tr>
+       <tr>
+            <td>UNIVERSITARIO </td>
+            <td>PERU</td>
+            <td>LIMA</td>
+            <td><img src="imagenes_Escudos/universitario.webp" alt="IMAGEN NO CARGA" width="200px"  > </td>
+      </tr>
+
+    </table>
+    <a  href="#inicio"  style="font-size: 25px;"  > VOLVER AL INICIO </a>
+
+    <h2> USO DE VIDEO LOCAL</h2>
+
+    <video src="videoplayback.mp4" height="400px" controls autoplay muted> VIDEO NO SOPORTADO  </video>
+    
+    <hr>
+    <h2> VIDEO DE YOUTUBE</h2>
+
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/enMzXHueqKE?si=YkZ8CPq2g1a9FIze" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin"
+         allowfullscreen>
+    </iframe>
+    
+    <hr>
+    <h2> USO DE AUDIO</h2>
+      <audio src="musica1.mp3"  controls loop autoplay > AUDIO NO SPORTADO  </audio>
 
 
 
