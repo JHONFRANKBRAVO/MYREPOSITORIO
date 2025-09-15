@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+   
 }
 header, nav, main, aside, footer {
     padding: 20px;
@@ -34,6 +35,8 @@ aside {
     background-color: #99a7d6;
     padding: 10px;
     max-width: 150px;
+    height: 250px;
+    flex-direction: column;  /*coloca aside en la misma columna */ 
 }
 footer {
     background-color: #222;
@@ -44,7 +47,7 @@ article {
     background-color: #d1dfa1;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #cccccc;
+    border: 5px ridge #cccccc;
 }
 .contenedor {
     max-width: 1280px;
@@ -55,3 +58,48 @@ article {
 .margen_imagen {
     margin-right: 20px;
 }
+
+.aside_imagenes {
+    background-color: white;
+}
+
+.color_link {
+  color:rgb(18, 16, 136) ;
+
+}
+
+.color_link:hover {
+    color:rgb(136, 84, 16) ;
+   background-color: yellow;
+  }
+
+  
+.primera_letra {
+   color: darkblue;
+
+}
+
+.primera_letra::first-letter {
+    color: rgb(138, 10, 10);
+    font-size: 150%;
+ 
+ }
+ 
+
+ .clase_static {
+    font-size: 20px;
+    background-color: aqua;
+    position: static;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 200px;
+ }
+ 
+ .clase_static2 {
+    font-size: 20px;
+    background-color: aqua;
+    position: static;
+    top: 20px;
+    left: 80px;
+    right: 200px;
+ }
